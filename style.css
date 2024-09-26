@@ -455,7 +455,7 @@ a:hover{
 
 
 /*menu*/
-.menu {
+/* .menu {
   display: none;
   position: absolute;
   right: 2rem;
@@ -467,7 +467,7 @@ a:hover{
 }
 
 .menu.open {
-  display: block; /* Exibir menu ao ativar a classe 'open' */
+  display: block; /* Exibir menu ao ativar a classe 'open' *
 }
 
 .menu li{
@@ -481,6 +481,42 @@ a:hover{
   width: 100%;
   display: flex;
   justify-content: center;
+} */
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 60px; /* Abaixo da navbar */
+  right: 0;
+  background-color: #333;
+  width: 200px;
+  padding: 20px;
+  z-index: 1000;
+}
+
+/* Exibir o menu quando a classe 'open' é adicionada */
+.menu.open {
+  display: block;
+}
+
+.menu ul {
+  list-style-type: none;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+.menu ul li a:hover {
+  background-color: #575757;
+}
+
+/* Estilo do ícone de toggle (fa-bars) */
+.toggle_btn {
+  cursor: pointer;
 }
 
 /*responsividade*/

@@ -36,6 +36,13 @@ btns.forEach((btn, i) => {
 //navbar
 
 // Script para o botão de toggle do menu
+// const toggleBtn = document.querySelector('.toggle_btn');
+// const menu = document.querySelector('.menu');
+
+// toggleBtn.onclick = function() {
+//     menu.classList.toggle('open'); // Alternar a classe 'open' no menu
+// }
+
 const toggleBtn = document.querySelector('.toggle_btn');
 const menu = document.querySelector('.menu');
 
